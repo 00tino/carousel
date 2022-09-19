@@ -1,13 +1,12 @@
 /* General */
 * { 
-    box-sizing:border-box
+    box-sizing:border-box;
+    background: #c7c5c5;
 }
-
 
 html, body {
     height: 100%;
 }
-
 
 body {
     font-family: sans-serif;
@@ -16,14 +15,12 @@ body {
     align-items: center;
 }
 
-
 /* Carousel */
 .carousel {
     width: 720px;
     height: 530px;
     overflow: hidden;
 }
-
 
 /* Images */
 .images {
@@ -34,16 +31,12 @@ body {
     transition: transform .5s ease-in-out;
 }
 
-
-
 /* Controls */
 .controls {
     height: 50px;
     display: flex;
     justify-content: space-between
 }
-
-
 
 .btn {
     border: none;
